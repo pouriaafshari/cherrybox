@@ -159,8 +159,9 @@ button:hover {
 }
 
 .hero-image img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
+    border-radius: 1em;
 }
 
 /* Features Section Styles */
@@ -234,9 +235,9 @@ button:hover {
     }
 
     .hero-image img {
-        height: 50vh;
         object-fit: cover;
         border-radius: 1em;
+        max-width: 100%;
     }
 }
 
